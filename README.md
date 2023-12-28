@@ -2,7 +2,7 @@
 
 ## Description
 
-This is just a Terraform module template.
+This repository was created for the [actions-template-sync](https://github.com/AndreasAugustin/actions-template-sync) issue [#422](https://github.com/AndreasAugustin/actions-template-sync/issues/422).
 
 ## Terraform Docs
 
