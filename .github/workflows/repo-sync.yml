@@ -21,8 +21,8 @@ jobs:
       - name: Checkout ${{ github.repository }}
         uses: actions/checkout@v4
         if: github.repository != env.SOURCE_REPOSITORY
-        # with:
-        #   token: ${{ secrets.REPO_SYNC_PAT }}
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       # Doc: https://github.com/marketplace/actions/actions-template-sync
       - name: actions-template-sync
